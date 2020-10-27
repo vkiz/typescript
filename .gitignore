@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+packages/
+
+# Visual Studio Code
+out/
+
+# npm
+node_modules/
+package-lock.json
+
+# source map
+*.js.map
