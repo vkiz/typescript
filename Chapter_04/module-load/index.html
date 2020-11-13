@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Загрузка модуля TypeScript</title>
+    </head>
+    <body>
+        <h1>Загрузка модуля TypeScript</h1>
+        <div id="content"></div>
+        <!-- Подключение загрузчика SystemJS из CDN Cloudflare -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.21.0/system.js"></script>
+        <script>
+            // Конфигурация загрузчика
+            SystemJS.config({
+                baseURL: "app", // директория с js-файлами
+                packages: {
+                    "/": { defaultExtension: "js" }
+                }
+            });
+            // Импорт главного файла приложения
+            System.import("app.js");
+        </script>
+    </body>
+</html>
