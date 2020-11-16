@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "typeRoots": ["C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\@types"]
+    }
+}
