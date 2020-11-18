@@ -6,8 +6,8 @@
 
 Примеры использования заголовочных файлов:
 
-- [javascript](/javascript) - ts, js, html;
-- [jquery](/jquery) - использование заголовочного файла [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/jquery/index.d.ts) для js-библиотеки [jQuery](https://jquery.com/).
+- [javascript](javascript) - ts, js, html;
+- [jquery](jquery) - использование заголовочного файла [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/jquery/index.d.ts) для js-библиотеки [jQuery](https://jquery.com/).
 
 Заголовочные файлы TypeScript для популярных библиотек расположены в репозитории https://github.com/DefinitelyTyped/DefinitelyTyped/.
 
